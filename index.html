@@ -103,26 +103,26 @@
 													
 												</li>
 												<li class="dropdown">
-													<a href="#">Services</a>
-													<ul>
+													<a onclick="redirectToServiceSection()">Services</a>
+													<!-- <ul>
 														<li><a href="#">Interior design</a></li>
 														<li><a href="#">Woodern floor	</a></li>
 														
-													</ul>
+													</ul> -->
 												</li>
 												<li class="dropdown">
-													<a href="#">Gallery</a>
-													<ul>
+													<a onclick="redirectToProjectSection()">Projects</a>
+													<!-- <ul>
 														<li><a href="#">Home Gallery</a></li>
 														<li><a href="#">Office Gallery</a></li>
-													</ul>
+													</ul> -->
 												</li>
 												<li class="dropdown">
-													<a href="#">About Us</a>
+													<a onclick="redirectToAboutUsSection()">About Us</a>
 												
 												</li>
 												
-												<li><a href="contact-us.html">Contact Us</a></li>
+												<li><a onclick="redirectToContactSection()">Contact Us</a></li>
 											</ul>
 										</div>
 									</div>
@@ -135,7 +135,7 @@
 									</a>
 								</div> -->
 								<div class="pbmit-button-box-second">
-									<a class="pbmit-btn" href="#">
+									<a class="pbmit-btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=refurb.ltd@gmail.com">
 										<span class="pbmit-button-content-wrapper">
 											<span class="pbmit-button-text">Book Consult</span>
 										</span>
@@ -159,10 +159,10 @@
 											<div class="pbmit-slider-content">
 												<h5 class="pbmit-sub-title transform-top transform-delay-1">RefurbMasters</h5>
 												<h2 class="pbmit-title transform-bottom-1 transform-delay-2">
-												Give new life to <br> your Product  
+												Give new life to <br> your Furniture  
 												</h2>												
 												<div class="pbmit-button transform-bottom-1 transform-delay-3">
-													<a class="pbmit-btn pbmit-btn-outline" href="contact-us.html">
+													<a class="pbmit-btn pbmit-btn-outline" href="https://mail.google.com/mail/?view=cm&fs=1&to=refurb.ltd@gmail.com">
 														<span class="pbmit-button-content-wrapper">
 															<span class="pbmit-button-text">Appeal To</span>
 														</span>
@@ -246,7 +246,7 @@
         <div class="page-content">
             
             <!-- About --> 
-            <section class="section-xl">
+            <section class="section-xl" id="AboutUsSection">
 				<div class="container">
 					<div class="row g-0">
 						<div class="col-md-12 col-xl-6">
@@ -280,11 +280,11 @@
 						<div class="col-md-12 col-xl-6">
 							<div class="about-one-rightbox">
 								<div class="pbmit-heading-subheading animation-style2">
-									<h4 class="pbmit-subtitle">since 2020</h4>
+									<h4 class="pbmit-subtitle">since 2024</h4>
 									<h2 class="pbmit-title">we are specialized in transforming the Old into new.</h2>
 									<div class="pbmit-heading-desc">
 										At RefurbMasters, we specialize in transforming the old into new. Our dedicated team of experts breathes new life into a
-										wide range of products.
+										wide range of Services.
 								</div>
 								<div class="row g-3">
 									<div class="col-md-6">
@@ -439,7 +439,8 @@
             <section class="section-lgb">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6 col-xl-3">
+						<div class="col-md-6 col-xl-2"></div>
+						<div class="col-md-6 col-xl-4">
 							<div class="pbminfotech-ele-fid-style-2">
 								<div class="pbmit-fld-contents">
 									<div class="pbmit-fld-wrap">
@@ -447,7 +448,7 @@
 											<div class="pbmit-sbox-icon-wrapper pbmit-icon-type-icon">
 												<i class="pbmit-xinterio-icon pbmit-xinterio-icon-offer"></i>
 											</div>
-											<span class="pbmit-fid-title">Products</span>
+											<span class="pbmit-fid-title">Services</span>
 										</div>
 										<h4 class="pbmit-fid-inner">
 											<span class="pbmit-fid-before"></span>
@@ -458,7 +459,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-xl-3">
+						<div class="col-md-6 col-xl-2"></div>
+						<!-- <div class="col-md-6 col-xl-3">
 							<div class="pbminfotech-ele-fid-style-2">
 								<div class="pbmit-fld-contents">
 									<div class="pbmit-fld-wrap">
@@ -476,8 +478,8 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6 col-xl-3">
+						</div> -->
+						<div class="col-md-6 col-xl-4">
 							<div class="pbminfotech-ele-fid-style-2">
 								<div class="pbmit-fld-contents">
 									<div class="pbmit-fld-wrap">
@@ -496,7 +498,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-xl-3">
+						<!-- 		
 							<div class="pbminfotech-ele-fid-style-2">
 								<div class="pbmit-fld-contents">
 									<div class="pbmit-fld-wrap">
@@ -514,14 +516,14 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
             </section>
             <!-- Fid End --> 
 
 			<!-- Service Start --> 
-            <section class="pbmit-extend-animation service-one pbmit-bg-color-secondary">
+            <section class="pbmit-extend-animation service-one pbmit-bg-color-secondary" id="service">
 				<div class="container">
 					<div class="text-center position-relative">
 						<div class="pbmit-heading-subheading text-center animation-style2">
@@ -550,13 +552,13 @@
 										</div>
 										<div class="pbmit-content-box">
 											<div class="pbmit-serv-cat">
-												<a href="#" rel="tag">Electronics</a>
+												<a href="#" rel="tag">Interior</a>
 											</div>
 											<h3 class="pbmit-service-title">
-												<a href="service-details.html">Transforming Electronics</a>
+												<a href="service-details.html">Transforming Interior</a>
 											</h3>
 											<div class="pbmit-service-description">
-												<p>Take your electronic applicances to another level</p>
+												<p>Take your Interiro to another level</p>
 											</div>
 										</div>
 									</div>
@@ -616,10 +618,10 @@
 										</div>
 										<div class="pbmit-content-box">
 											<div class="pbmit-serv-cat">
-												<a href="#" rel="tag">Appliances</a>
+												<a href="#" rel="tag">Refurbishment</a>
 											</div>
 											<h3 class="pbmit-service-title">
-												<a href="service-details.html">Applicance</a>
+												<a href="service-details.html">Refurbishment</a>
 											</h3>
 											<div class="pbmit-service-description">
 												<p>GIve new life to your applicances with small touch of RefurbMasters</p>
@@ -703,7 +705,7 @@
 					</div>
 					<div class="text-center">
 						<div class="pbmit-service-text">
-							<p>Need more services based on your demand? <span class="pbmit-globalcolor">Contact us</span></p>
+							<p>Need more services based on your demand? <span class="pbmit-globalcolor"><a onclick="redirectToContactSection()">Contact us</a></span></p>
 						</div>
 					</div>
 				</div>
@@ -716,7 +718,7 @@
 					<div class="row">
 						<div class="col-md-12 col-xl-4">
 							<div class="pbmit-heading-subheading animation-style2">
-								<h4 class="pbmit-subtitle">since 2020</h4>
+								<h4 class="pbmit-subtitle">since 2024</h4>
 								<h2 class="pbmit-title">Why choose us</h2>
 							</div>
 						</div>
@@ -873,21 +875,21 @@
 						<div class="swiper-wrapper">
 							<article class="pbmit-marquee-effect-style-1 swiper-slide">
 								<div class="pbmit-tag-wrapper">
-									<h2 class="pbmit-element-title" data-text="Master Bedroom ">
+									<h2 class="pbmit-element-title" data-text="Electronics">
 										Electronics
 									</h2>
 								</div>
 							</article>
 							<article class="pbmit-marquee-effect-style-1 swiper-slide">
 								<div class="pbmit-tag-wrapper">
-									<h2 class="pbmit-element-title" data-text="Living Room">
+									<h2 class="pbmit-element-title" data-text="Furniture">
 										Furniture
 									</h2>
 								</div>
 							</article>
 							<article class="pbmit-marquee-effect-style-1 swiper-slide">
 								<div class="pbmit-tag-wrapper">
-									<h2 class="pbmit-element-title" data-text="Kitchen">
+									<h2 class="pbmit-element-title" data-text="Applicances">
 										Applicances
 									</h2>
 								</div>
@@ -900,7 +902,7 @@
             <!-- Marquee End -->
 
 			<!-- Portfolio Start -->
-			<section class="pbmit-bg-color-light portfolio-one pbmit-sortable-yes">
+			<section class="pbmit-bg-color-light portfolio-one pbmit-sortable-yes" id="project">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-md-12 col-xl-4">
@@ -1080,9 +1082,9 @@
 				</div>
 			</section>
 			<!-- Portfolio End -->
+<!-- 
 
-
-			<!-- Testimonial Start -->
+			
             <section class="pbmit-bg-color-light testimonial-one">
 				<div class="container pbmit-col-stretched-yes pbmit-col-right">
 					<div class="pbmit-col-stretched-right">
@@ -1098,7 +1100,7 @@
 							<div class="col-md-12 col-lg-9 pbmit-testimonialbox-right">
 								<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="2.6" data-margin="30" data-effect="slide">
 									<div class="swiper-wrapper">
-										<!-- Slide1 -->
+										
 										<article class="pbmit-testimonial-style-1 swiper-slide">
 											<div class="pbminfotech-post-item">
 												<div class="pbmit-box-content-wrap">
@@ -1130,7 +1132,6 @@
 												</div>
 											</div>
 										</article>
-										<!-- Slide2 -->
 										<article class="pbmit-testimonial-style-1 swiper-slide">
 											<div class="pbminfotech-post-item">
 												<div class="pbmit-box-content-wrap">
@@ -1162,7 +1163,6 @@
 												</div>
 											</div>
 										</article>
-										<!-- Slide3 -->
 										<article class="pbmit-testimonial-style-1 swiper-slide">
 											<div class="pbminfotech-post-item">
 												<div class="pbmit-box-content-wrap">
@@ -1194,7 +1194,6 @@
 												</div>
 											</div>
 										</article>
-										<!-- Slide4 -->
 										<article class="pbmit-testimonial-style-1 swiper-slide">
 											<div class="pbminfotech-post-item">
 												<div class="pbmit-box-content-wrap">
@@ -1259,15 +1258,14 @@
 						</div>
 					</div>
 				</div>
-            </section>
+            </section> -->
             <!-- Testimonial End -->
 
             <!-- Client Start --> 
-            <section class="section-lgb pbmit-bg-color-light">
+            <!-- <section class="section-lgb pbmit-bg-color-light">
 				<div class="container">
 					<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="6" data-margin="0" data-effect="slide">
 						<div class="swiper-wrapper">
-							<!-- Slide1 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1284,7 +1282,6 @@
 									</div>
 								</div>
 							</article>
-							<!-- Slide2 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1300,7 +1297,6 @@
 									</div>
 								</div>
 							</article>
-							<!-- Slide3 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1316,7 +1312,6 @@
 									</div>
 								</div>
 							</article>
-							<!-- Slide4 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1332,7 +1327,6 @@
 									</div>
 								</div>
 							</article>
-							<!-- Slide5 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1348,7 +1342,6 @@
 									</div>
 								</div>
 							</article>
-							<!-- Slide6 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1364,7 +1357,6 @@
 									</div>
 								</div>
 							</article>
-							<!-- Slide7 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1380,7 +1372,6 @@
 									</div>
 								</div>
 							</article>
-							<!-- Slide8 -->
 							<article class="pbmit-client-style-1 swiper-slide">
 								<div class="pbmit-border-wrapper">
 									<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
@@ -1399,11 +1390,11 @@
 						</div>
 					</div>
 				</div>
-            </section>
+            </section> -->
             <!-- Client End -->
 
 			<!-- Video Start -->
-			<section class="pbmit-bg-color-secondary video-section-one fadeIn animated animated-slow"> 
+			<!-- <section class="pbmit-bg-color-secondary video-section-one fadeIn animated animated-slow"> 
 				<div class="pbmit-bg-overlay"></div>
 				<div class="container">
 					<div class="text-center">
@@ -1418,7 +1409,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- Video Start -->
 
 			
@@ -1434,10 +1425,9 @@
 						<div class="col-md-4">
 							<aside class="widget pbmit-two-column-menu">
 								<ul>
-									<li><a href="about-us.html">About Us</a></li>
-									<li><a href="contact-us.html">Contact Us</a></li>
-									<li><a href="service-details.html">Service</a></li>
-									<li><a href="team-single-details.html">Team Member</a></li>
+									<li><a onclick="redirectToAboutUsSection()">About Us</a></li>
+									<li><a onclick="redirectToContactSection()">Contact Us</a></li>
+									
 									
 								</ul>
 							</aside>
@@ -1454,30 +1444,28 @@
 						<div class="col-md-4">
 							<aside class="widget pbmit-two-column-menu">
 								<ul>
-									<li><a href="#">Gallery</a></li>
-									<li><a href="#">Partners</a></li>
+									<li><a onclick="redirectToServiceSection()">Services</a></li>
 									
-									<li><a href="#">Coming Soon</a></li>
-									<li><a href="portfolio-detail-style-1.html">Project</a></li>
+									<li><a onclick="redirectToProjectSection()">Project</a></li>
 								</ul>
 							</aside>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="pbmit-footer-big-area-wrapper">
+			<div class="pbmit-footer-big-area-wrapper" id="ContactSection">
 				<div class="footer-wrap pbmit-footer-big-area">
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-md-4 pbmit-footer-left">
 								<span class="pbmit-email-text"> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=refurb.ltd@gmail.com" class="__cf_email__" data-cfemail="c0a8a5acacaf80a5b8a1adb0aca5eea3afad">Xrefurb.ltd@gmail.com
 								</a></span>
-								<span class="pbmit-phone-number"> +91 971436804</span>
+								<span class="pbmit-phone-number"> +44 07495794877</span>
 							</div>
 							<div class="col-md-4 pbmit-footer-right">
-								<span class="pbmit-address">flat-7 bellow house gayton road<br> harrow, HA12DQ</span>
+								<span class="pbmit-address">Flat-7 Bellow House Gayton road<br> Harrow, HA12DQ</span>
 							</div>
-							<div class="col-md-4 pbmit-footer-right-social">
+							<div class="col-md-4 pbmit-footer-right-social" id="targetSection">
 								<ul class="pbmit-social-links">
 									<li class="pbmit-social-li pbmit-social-facebook">
 										<a title="Facebook" href="#" target="_blank">
@@ -1510,7 +1498,7 @@
 					<div class="pbmit-footer-text-inner">
 						<div class="row">
 							<div class="col-md-12"> 
-								<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="index.html">RefurbMasters</a>, All Rights Reserved.</div>
+								<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="#">RefurbMasters</a>, All Rights Reserved.</div>
 							</div>
 						</div>
 					</div>
@@ -1588,6 +1576,24 @@
 	<script src="js/isotope.pkgd.min.js"></script> 
 	<!-- Scripts JS -->
 	<script src="js/scripts.js"></script>
+
+
+	<script>
+		function redirectToContactSection() {
+		  document.getElementById("ContactSection").scrollIntoView({ behavior: "smooth" });
+		}
+
+		function redirectToAboutUsSection() {
+		  document.getElementById("ContactSection").scrollIntoView({ behavior: "smooth" });
+		}
+
+		function redirectToServiceSection() {
+		  document.getElementById("service").scrollIntoView({ behavior: "smooth" });
+		}
+		function redirectToProjectSection() {
+		  document.getElementById("project").scrollIntoView({ behavior: "smooth" });
+		}
+	  </script>
 
    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8da34122f92d48e6',t:'MTczMDIwNTg0MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/g/scripts/jsd/f2bbd6738e15/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8da34122f92d48e6","version":"2024.10.4","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}' crossorigin="anonymous"></script>
 </body>
